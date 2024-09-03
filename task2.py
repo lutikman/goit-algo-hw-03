@@ -1,7 +1,6 @@
 import random
 
 def get_numbers_ticket(min, max, quantity):
-    # quantity < 1 - обмежує 
     if quantity < 1 or min < 1 or max > 1000 or (max-min)+1 < quantity: 
         return []
     
